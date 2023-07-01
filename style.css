@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 4rem 3rem;
+}
+
+#Container {
+  height: 35rem;
+  width: 35rem;
+  background: linear-gradient(to right bottom, #e5dbff, #7950f2);
+  /* background-color: rgb(172, 172, 238); */
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 75px 75px 75px 75px 75px;
+  grid-area: "bill_amount" "Tip_Pereentage " "Tip_Amount" "Total_Bill";
+  grid-gap: 10px;
+  margin: auto;
+  padding: 3rem;
+  border: 5px solid rgb(21, 21, 122);
+}
+
+input {
+  height: 40px;
+}
+
+#btn {
+  grid-column: 1/3;
+  height: 40px;
+}
