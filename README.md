@@ -1,2 +1,2 @@
 # Tip
-[Demo Tip-Caluclator](https://kaorigiang.github.io/Tip/)
+[Demo](https://kaorigiang.github.io/Tip/)
